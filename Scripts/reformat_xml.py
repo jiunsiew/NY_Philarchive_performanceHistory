@@ -7,7 +7,8 @@ import os
 import os.path
 
 # create xml element
-os.chdir('i:/Archives Digitization Project/PerformanceHistoryRepo/PerformanceHistory/Programs')
+# os.chdir('i:/Archives Digitization Project/PerformanceHistoryRepo/PerformanceHistory/Programs')
+os.chdir('/Users/jiun/Documents/analytics/NY_Philarchive_performanceHistory/Programs')
 files = [g for g in os.listdir('.') if os.path.isfile(g)]
 for g in files:
     tree = ET.parse(g)
